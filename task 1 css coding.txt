@@ -1,0 +1,59 @@
+/* styles.css */
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1720457226611-4bb39dcf5ae4?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* add background image */
+    background-size: cover; /* cover the entire page */
+    background-position: center; /* center the image */
+    font-family: Arial, sans-serif; /* add a font family */
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* add a semi-transparent background */
+    padding: 20px; /* add some padding */
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #f7f7f7; /* add a light gray background */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a subtle shadow */
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7; /* add a blue color to links */
+  }
+  
+  a:hover {
+    color: #23527c; /* add a darker blue color on hover */
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    clear: both; /* clear the floats */
+  }
